@@ -10,6 +10,7 @@
   const employeeInfo = document.querySelector(".employees__single--info");
 
   // Add Employee - START
+
   const createEmployee = document.querySelector(".createEmployee");
   const addEmployeeModal = document.querySelector(".addEmployee");
   const addEmployeeForm = document.querySelector(".addEmployee_create");
@@ -25,6 +26,7 @@
   });
 
   // Set Employee age to be entered minimum 18 years
+
   const dobInput = document.querySelector(".addEmployee_create--dob");
   dobInput.max = `${new Date().getFullYear() - 18}-${new Date().toISOString().slice(5, 10)}`  
 
@@ -46,6 +48,7 @@
     addEmployeeForm.reset();
     addEmployeeModal.style.display = "none";
   });
+
   // Add Employee - END
 
   employeeList.addEventListener("click", (e) => {
@@ -58,6 +61,7 @@
     // Select Employee Logic - END
 
     // Employee Delete Logic - START
+    
     if (e.target.tagName === "I") {
       employees = employees.filter(
         (emp) => String(emp.id) !== e.target.parentNode.id
