@@ -13,7 +13,7 @@ body {
   font-family: sans-serif;
 }
 
-.container__title {
+.container_title {
   padding: 10px 20px;
   font-size: 40px;
   text-align: center;
@@ -27,25 +27,25 @@ body {
   gap: 10px;
 }
 
-.container__labels,
-.container__inputs,
-.container__btns {
+.container_labels,
+.container_inputs,
+.container_btns {
   display: flex;
   justify-content: space-between;
 }
 
-.container__btns {
+.container_btns {
   margin-top: 20px;
 }
 
-.container__labels--label {
+.container_labels_label {
   width: 20%;
   text-align: center;
   font-size: 30px;
   padding: 5px 10px;
 }
 
-.container__inputs--time {
+.container_inputs_time {
   justify-self: center;
   align-self: center;
   border: none;
@@ -54,7 +54,7 @@ body {
   height: 50px;
 }
 
-.container__inputs--colon {
+.container_inputs_colon {
   justify-self: center;
   align-self: center;
   font-size: 30px;
