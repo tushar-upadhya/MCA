@@ -1,0 +1,9 @@
+.data-container-box {
+    height: 100%;
+    transition: 2s height;
+    overflow: hidden;
+}
+
+.data-hidden {
+    height: 0px;
+}

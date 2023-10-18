@@ -1,0 +1,14 @@
+.dark-cell {
+    background-color: black;
+}
+table {
+    border: 1px solid black;
+} 
+td {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+.highlighted {
+    background-color: red;
+}
